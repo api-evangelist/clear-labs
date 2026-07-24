@@ -1,8 +1,26 @@
 aid: clear-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clear-labs.png
 name: Clear Labs
-description: 'Clear Labs is a company surfaced as a portfolio company of gv, menlo-ventures, wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Clear Labs builds automated next-generation sequencing (NGS) platforms
+  that combine laboratory robotics, cloud software, and bioinformatics to deliver
+  genomic data and actionable insights. Its product lines span oncology research (Clear
+  Dx), infectious-disease and microbial genomics (Clear Ix), and food-safety pathogen
+  testing (Clear Safety) for organisms such as Listeria and Salmonella. The company
+  was surfaced as a portfolio company of GV, Menlo Ventures, and Wing Venture Capital
+  and added to the API Evangelist network. Clear Labs publishes no public developer
+  API, SDK, or documentation as of this profile; the record captures company identity
+  and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/clear-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Life Sciences
+- Genomics
+- Next-Generation Sequencing
+- Diagnostics
+- Food Safety
+- Bioinformatics
+- Molecular Diagnostics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +50,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://clearlabs.com
+  url: https://www.clearlabs.com
+- type: Blog
+  url: https://www.clearlabs.com/blog/
+- type: Support
+  url: https://www.clearlabs.com/contact-us/
+- type: TermsOfService
+  url: https://www.clearlabs.com/termsofuse/
+- type: PrivacyPolicy
+  url: https://www.clearlabs.com/privacy/
+- type: DomainSecurity
+  url: security/clear-labs-domain-security.yml
+- type: LLMsTxt
+  url: llms/clear-labs-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

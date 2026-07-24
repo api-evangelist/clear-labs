@@ -1,0 +1,17 @@
+# Clear Labs
+
+> Clear Labs builds automated next-generation sequencing (NGS) platforms that pair robotics, software, and bioinformatics to deliver genomic data and actionable insights. Its instruments and software serve oncology research (Clear Dx), infectious-disease and microbial genomics (Clear Ix), and food-safety pathogen testing (Clear Safety). Clear Labs publishes no public developer API; this profile is an API Evangelist network company record.
+
+## Company
+- [Clear Labs website](https://www.clearlabs.com): Company home — automated NGS platforms for oncology, infectious disease, and food safety.
+- [Blog](https://www.clearlabs.com/blog/): Company news, science, and product updates.
+- [White papers & publications](https://www.clearlabs.com/white-paper/): Research publications and technical white papers.
+- [Contact / Support](https://www.clearlabs.com/contact-us/): Customer and sales contact.
+
+## Legal
+- [Privacy Policy](https://www.clearlabs.com/privacy/)
+- [Terms of Use](https://www.clearlabs.com/termsofuse/)
+
+## Notes
+- No public API, developer portal, OpenAPI, SDKs, MCP server, or webhook surface was found as of 2026-07-18.
+- Domain security posture (TLS/HSTS/DNSSEC/CAA/SPF/DMARC) is captured in security/clear-labs-domain-security.yml.
