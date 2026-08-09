@@ -12,15 +12,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clear-labs.png
 name: Clear Labs
-description: 'Clear Labs builds automated next-generation sequencing (NGS) platforms
-  that combine laboratory robotics, cloud software, and bioinformatics to deliver
-  genomic data and actionable insights. Its product lines span oncology research (Clear
-  Dx), infectious-disease and microbial genomics (Clear Ix), and food-safety pathogen
-  testing (Clear Safety) for organisms such as Listeria and Salmonella. The company
-  was surfaced as a portfolio company of GV, Menlo Ventures, and Wing Venture Capital
-  and added to the API Evangelist network. Clear Labs publishes no public developer
-  API, SDK, or documentation as of this profile; the record captures company identity
-  and domain-security posture.'
+description: Clear Labs builds automated next-generation sequencing (NGS) platforms that combine laboratory
+  robotics, cloud software, and bioinformatics to deliver genomic data and actionable insights. Its product
+  lines span oncology research (Clear Dx), infectious-disease and microbial genomics (Clear Ix), and food-safety
+  pathogen testing (Clear Safety) for organisms such as Listeria and Salmonella. The company was surfaced
+  as a portfolio company of GV, Menlo Ventures, and Wing Venture Capital and added to the API Evangelist
+  network. Clear Labs publishes no public developer API, SDK, or documentation as of this profile; the
+  record captures company identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/clear-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -32,7 +30,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-08-08'
 tags:
 - Company
 - Life Sciences
@@ -63,8 +61,12 @@ common:
   url: security/clear-labs-domain-security.yml
 - type: LLMsTxt
   url: llms/clear-labs-llms.txt
+- type: GitHubOrganization
+  url: https://github.com/clearlabs
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-merged-from:
+- clearlabs
